@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+    color: white;
+    letter-spacing: 1.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+#button{
+    width: 100%;
+}
+#home_button{
+    position:absolute;
+    top: 45%;
+}
